@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5001;
 const app = express();
 app.use(
   cors({
-    origin: ["https://benevolent-horse-391e3b.netlify.app/"],
+    origin: ["https://main--charming-nougat-3c7bb1.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
