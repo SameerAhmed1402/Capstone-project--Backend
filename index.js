@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5001;
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://luxury-puffpuff-fcd753.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
   })
